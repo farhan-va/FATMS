@@ -1,0 +1,71 @@
+#div {
+  width: 1380px;
+  height: 625px;
+  background-image: url("https://i.stack.imgur.com/SvWWN.png");
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+ background-image: './background1.png';
+ overflow-y: scroll;
+ --secondary: rgb(161, 161, 161);
+ --divider: #343434;
+}
+
+.homepageheader{
+  position: absolute;
+  top: 170px;
+  left: 480px;
+  margin: 5px;
+  color: beige;
+  font-size: 60px;
+  font-family: Playfair Display;
+  font-weight: bold;
+}
+
+
+
+.noteheader{
+  position: absolute;
+  right: 200px;
+  bottom: 100px;
+  margin: 5px;
+  color: azure;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calendarheader{
+  position: absolute;
+  left: 200px;
+  bottom: 100px;
+  margin: 5px;
+  color: azure;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todoheader{
+  position: absolute;
+  left: 590px;
+  bottom: 100px;
+  margin: 5px;
+  color: azure;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signout-icon{
+  position: absolute;
+  left: 1200px;
+  bottom: 550px;
+  font-size: 30px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
